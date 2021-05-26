@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 3970px;
+    background-color: #011957;
+}
+
+.box .text {
+    list-style: none;
+    padding: 0px 10px;
+    height: 300px;
+}
+
+.box .text li {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 40px;
+    background-color: #6745b5;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #3e13a0;
+    text-indent: 5px;
+}
+
+.box .text li a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.box .text li span {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: #011957;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.box .book {
+    list-style: none;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.box .book li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin: 10px 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box .book li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box .book li a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.box .book li a p {
+    width: 300px;
+    height: 20px;
+    padding: 0 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box .book li a .price1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: tomato;
+}
+
+.box .book li a .price2 {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.box .book li a div {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
